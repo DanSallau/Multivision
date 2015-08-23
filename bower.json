@@ -1,0 +1,17 @@
+{
+  "name": "MultiVision",
+  "version": "0.0.0",
+  "description": "Extreme Tech Training",
+  "authors": [
+    "Nuru Salihu(mamman.3@hotmail.com)"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "toastr": "~2.1.1",
+    "angular": "~1.3.15",
+    "angular-resource": "~1.3.15",
+    "angular-route": "~1.3.15"
+  }
+}

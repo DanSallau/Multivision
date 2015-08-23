@@ -1,0 +1,152 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   '--dev',
+1 verbose cli   'karma',
+1 verbose cli   'mocha',
+1 verbose cli   'karma-mocha',
+1 verbose cli   'karma-chai-plugins' ]
+2 info using npm@2.9.0
+3 info using node@v0.10.36
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose install initial load of D:\Multivision\package.json
+6 warn package.json multivision@0.0.0 No repository field.
+7 warn package.json multivision@0.0.0 No README data
+8 verbose installManyTop reading scoped package data from D:\Multivision\node_modules\body-parser\package.json
+9 verbose installManyTop reading scoped package data from D:\Multivision\node_modules\cookie-parser\package.json
+10 verbose installManyTop reading scoped package data from D:\Multivision\node_modules\express\package.json
+11 verbose installManyTop reading scoped package data from D:\Multivision\node_modules\express-session\package.json
+12 verbose installManyTop reading scoped package data from D:\Multivision\node_modules\jade\package.json
+13 verbose installManyTop reading scoped package data from D:\Multivision\node_modules\mongoose\package.json
+14 verbose installManyTop reading scoped package data from D:\Multivision\node_modules\morgan\package.json
+15 verbose installManyTop reading scoped package data from D:\Multivision\node_modules\passport\package.json
+16 verbose installManyTop reading scoped package data from D:\Multivision\node_modules\passport-local\package.json
+17 verbose installManyTop reading scoped package data from D:\Multivision\node_modules\session\package.json
+18 verbose installManyTop reading scoped package data from D:\Multivision\node_modules\stylus\package.json
+19 verbose readDependencies loading dependencies from D:\Multivision\package.json
+20 silly cache add args [ 'karma', null ]
+21 verbose cache add spec karma
+22 silly cache add args [ 'mocha', null ]
+23 verbose cache add spec mocha
+24 silly cache add args [ 'karma-mocha', null ]
+25 verbose cache add spec karma-mocha
+26 silly cache add args [ 'karma-chai-plugins', null ]
+27 verbose cache add spec karma-chai-plugins
+28 silly cache add parsed spec { raw: 'mocha',
+28 silly cache add   scope: null,
+28 silly cache add   name: 'mocha',
+28 silly cache add   rawSpec: '',
+28 silly cache add   spec: '*',
+28 silly cache add   type: 'range' }
+29 silly addNamed mocha@*
+30 verbose addNamed "*" is a valid semver range for mocha
+31 silly addNameRange { name: 'mocha', range: '*', hasData: false }
+32 silly mapToRegistry name mocha
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry uri https://registry.npmjs.org/mocha
+36 verbose addNameRange registry:https://registry.npmjs.org/mocha not in flight; fetching
+37 silly cache add parsed spec { raw: 'karma',
+37 silly cache add   scope: null,
+37 silly cache add   name: 'karma',
+37 silly cache add   rawSpec: '',
+37 silly cache add   spec: '*',
+37 silly cache add   type: 'range' }
+38 silly addNamed karma@*
+39 verbose addNamed "*" is a valid semver range for karma
+40 silly addNameRange { name: 'karma', range: '*', hasData: false }
+41 silly mapToRegistry name karma
+42 silly mapToRegistry using default registry
+43 silly mapToRegistry registry https://registry.npmjs.org/
+44 silly mapToRegistry uri https://registry.npmjs.org/karma
+45 verbose addNameRange registry:https://registry.npmjs.org/karma not in flight; fetching
+46 silly cache add parsed spec { raw: 'karma-mocha',
+46 silly cache add   scope: null,
+46 silly cache add   name: 'karma-mocha',
+46 silly cache add   rawSpec: '',
+46 silly cache add   spec: '*',
+46 silly cache add   type: 'range' }
+47 silly addNamed karma-mocha@*
+48 verbose addNamed "*" is a valid semver range for karma-mocha
+49 silly addNameRange { name: 'karma-mocha', range: '*', hasData: false }
+50 silly mapToRegistry name karma-mocha
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry uri https://registry.npmjs.org/karma-mocha
+54 verbose addNameRange registry:https://registry.npmjs.org/karma-mocha not in flight; fetching
+55 silly cache add parsed spec { raw: 'karma-chai-plugins',
+55 silly cache add   scope: null,
+55 silly cache add   name: 'karma-chai-plugins',
+55 silly cache add   rawSpec: '',
+55 silly cache add   spec: '*',
+55 silly cache add   type: 'range' }
+56 silly addNamed karma-chai-plugins@*
+57 verbose addNamed "*" is a valid semver range for karma-chai-plugins
+58 silly addNameRange { name: 'karma-chai-plugins', range: '*', hasData: false }
+59 silly mapToRegistry name karma-chai-plugins
+60 silly mapToRegistry using default registry
+61 silly mapToRegistry registry https://registry.npmjs.org/
+62 silly mapToRegistry uri https://registry.npmjs.org/karma-chai-plugins
+63 verbose addNameRange registry:https://registry.npmjs.org/karma-chai-plugins not in flight; fetching
+64 verbose request uri https://registry.npmjs.org/mocha
+65 verbose request no auth needed
+66 info attempt registry request try #1 at 17:53:32
+67 verbose request id c5f63a442315aa86
+68 http request GET https://registry.npmjs.org/mocha
+69 verbose request uri https://registry.npmjs.org/karma-mocha
+70 verbose request no auth needed
+71 info attempt registry request try #1 at 17:53:32
+72 http request GET https://registry.npmjs.org/karma-mocha
+73 verbose request uri https://registry.npmjs.org/karma-chai-plugins
+74 verbose request no auth needed
+75 info attempt registry request try #1 at 17:53:32
+76 http request GET https://registry.npmjs.org/karma-chai-plugins
+77 verbose request uri https://registry.npmjs.org/karma
+78 verbose request no auth needed
+79 info attempt registry request try #1 at 17:53:32
+80 http request GET https://registry.npmjs.org/karma
+81 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+82 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+83 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+84 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+85 info attempt registry request try #2 at 17:53:54
+86 http request GET https://registry.npmjs.org/mocha
+87 info attempt registry request try #2 at 17:53:54
+88 http request GET https://registry.npmjs.org/karma
+89 info attempt registry request try #2 at 17:53:54
+90 http request GET https://registry.npmjs.org/karma-chai-plugins
+91 info attempt registry request try #2 at 17:53:54
+92 http request GET https://registry.npmjs.org/karma-mocha
+93 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+94 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+95 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+96 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+97 info attempt registry request try #3 at 17:55:06
+98 http request GET https://registry.npmjs.org/mocha
+99 info attempt registry request try #3 at 17:55:06
+100 http request GET https://registry.npmjs.org/karma-chai-plugins
+101 info attempt registry request try #3 at 17:55:06
+102 http request GET https://registry.npmjs.org/karma-mocha
+103 info attempt registry request try #3 at 17:55:06
+104 http request GET https://registry.npmjs.org/karma
+105 verbose stack Error: getaddrinfo ENOTFOUND
+105 verbose stack     at errnoException (dns.js:37:11)
+105 verbose stack     at Object.onanswer [as oncomplete] (dns.js:124:16)
+106 verbose cwd D:\Multivision
+107 error Windows_NT 6.1.7601
+108 error argv "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save" "--dev" "karma" "mocha" "karma-mocha" "karma-chai-plugins"
+109 error node v0.10.36
+110 error npm  v2.9.0
+111 error code ENOTFOUND
+112 error errno ENOTFOUND
+113 error syscall getaddrinfo
+114 error network getaddrinfo ENOTFOUND
+114 error network This is most likely not a problem with npm itself
+114 error network and is related to network connectivity.
+114 error network In most cases you are behind a proxy or have bad network settings.
+114 error network
+114 error network If you are behind a proxy, please make sure that the
+114 error network 'proxy' config is set properly.  See: 'npm help config'
+115 verbose exit [ 1, true ]
